@@ -1,4 +1,4 @@
-What is delegate?
+<Strong> What is delegate? </Strong>
 
      A bit like an interface with single method. (Signature of a method)
      Hold a reference to a method and the target object the method should be called on
