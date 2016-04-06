@@ -1,0 +1,13 @@
+What is delegate?
+
+     A bit like an interface with single method. (Signature of a method)
+     Hold a reference to a method and the target object the method should be called on
+
+     hidden fields
+
+Why delegate?
+
+What is Events?
+
+Why events?
+
