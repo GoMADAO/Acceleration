@@ -1,8 +1,8 @@
 # Delegate
 - **What is delegate?**
 
-1. A bit like an interface with single method. (Signature of a method/ a pointer to a function)
-2. Hold a reference to a method and the target object the method should be called on
+*1. A bit like an interface with single method. (Signature of a method/ a pointer to a function)*
+*2. Hold a reference to a method and the target object the method should be called on*
 
 
 
@@ -57,8 +57,9 @@ class Program
 
 - **What is Events?**
  
-1. Something special that is going to happen
-2. An event has a publisher, subscriber, notification and a handler.
+*1. Something special that is going to happen*
+*2. An event has a `publisher`, `subscriber`, `notification` and a `handler`.*
+
 
 
 - **Why/When to use events?**
