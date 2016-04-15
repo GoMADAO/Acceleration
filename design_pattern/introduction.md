@@ -37,3 +37,9 @@ The two most common techniques for reusing functionality in object-oriented syst
 
 
 Object composition is an alternative to class inheritance. Here, new functionality is obtained by assembling or composing objects to get more complex functionality. Object composition requires that the objects being composed have well-defined interfaces. This style of reuse is called black-box reuse, because no internal details of objects are visible. Objects appear only as "black boxes."
+
+- Disadvantage of inheritance
+the implementation of its parent class that any change in the parent's implementation will force the subclass to change
+===> use abstract class they usually provide little or no implementation.
+
+- 
