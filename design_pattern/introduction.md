@@ -43,3 +43,36 @@ the implementation of its parent class that any change in the parent's implement
 ===> use abstract class they usually provide little or no implementation.
 
 - 
+
+
+
+
+
+
+
+
+
+
+
+# Creational Pattern
+
+Two recurring themes in these pattern. 1. encapsulate knowledge about which concrete calsses the system uses. 2. hide how instance of these classes are created and put together.
+
+- Problems with simple or standard object creation
+Maze example: Hard-codes maze layout. 
+
+- Difference ways to **remove explicit reference** to concrete classes
+
+**Factory Method**
+CreateMaze calls Virtual functions instead of constructor to create wall,rooms,doors
+
+**Abstract Factory Method**
+CreateMaze is passed an obejct as a parameter to create rooms,walls,doors to create difference class 
+
+**Builder**
+CreateMaze is passed object that create a new maze in its entirety using operations for adding rooms,doors,walls
+
+**Prototype**
+CreateMaze is parameterized by varirous prototypical room,door,walls,
+
+
