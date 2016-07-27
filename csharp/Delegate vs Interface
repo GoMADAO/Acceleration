@@ -1,0 +1,14 @@
+
+Performance
+Delegate is faster to execute
+Interface is faster to get
+
+Example code:
+Action action = SomeMethod;
+
+Delegates are reference types that contain both instance and the pointer to a method. By referencing type, it needs allocate memory.
+
+Example code:
+IRunnable runnable = this;
+
+Since the actual oject implements the interface, there is no new instance. This means no memory allocated.
