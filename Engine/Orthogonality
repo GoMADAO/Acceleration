@@ -1,0 +1,12 @@
+
+Techiniques to maintain orthogonality
+
+Keep your code decoupled
+Write shy code-- modules that dont reveal anything unnecessary to other modules and that dont rely on other modules implementation.
+
+Avoid global data
+Every time your code references global data, it ties itself into the other components that share the data. Even globals you intend only to read can lead to trouble, eg., you change your code to be multihreaded.
+Code is easier to understand if you explicitly pass required context into your models. 
+
+Avoid similar functions
+Duplicate code is a symptom of structural problems.
