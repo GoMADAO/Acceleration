@@ -1,0 +1,19 @@
+How does OAuth2 work?
+
+OAuth2 provide 3party authentication to some resource like Google, Linkedin and etc.
+
+4 roles
+Resource owner -> user
+Client -> app created by us
+Resource server -> 3 party resource server
+Authentication server -> 3 party authentication server
+
+
+Workflow
+1. app -> user: ask user to grant certain permission
+2. user (with their input) -> authentication server: user login to 3 party
+3. user grant app permission
+4. app receives user authorization code
+5. app exchange authorization code to get access token with app's client id/ client secret
+6. auth server grant permission to app and return access token
+7. app use access token to call resource server
